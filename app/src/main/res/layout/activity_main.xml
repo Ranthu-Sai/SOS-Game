@@ -78,7 +78,6 @@
         android:textColor="#ffffff"
         android:textSize="48sp"
         android:textStyle="bold"
-        android:paddingTop="-64dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/playerStatus"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -92,7 +91,6 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
         app:layout_constraintLeft_toRightOf="@id/btn_0"
         app:layout_constraintTop_toBottomOf="@id/playerStatus"
@@ -107,7 +105,6 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
         app:layout_constraintLeft_toRightOf="@id/btn_1"
         app:layout_constraintTop_toBottomOf="@id/playerStatus" />
@@ -121,7 +118,6 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
         app:layout_constraintLeft_toRightOf="@id/btn_2"
         app:layout_constraintTop_toBottomOf="@id/playerStatus" />
@@ -135,7 +131,6 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
         app:layout_constraintLeft_toRightOf="@id/btn_3"
         app:layout_constraintTop_toBottomOf="@id/playerStatus" />
@@ -149,7 +144,6 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_0"
@@ -164,7 +158,6 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
         app:layout_constraintLeft_toRightOf="@id/btn_0"
         app:layout_constraintTop_toBottomOf="@id/btn_1" />
@@ -178,7 +171,6 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
         app:layout_constraintLeft_toRightOf="@id/btn_6"
         app:layout_constraintTop_toBottomOf="@id/btn_1" />
@@ -192,7 +184,6 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
         app:layout_constraintLeft_toRightOf="@id/btn_7"
         app:layout_constraintTop_toBottomOf="@id/btn_1" />
@@ -205,7 +196,6 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
         app:layout_constraintLeft_toRightOf="@id/btn_8"
         app:layout_constraintTop_toBottomOf="@id/btn_1" />
@@ -219,7 +209,6 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_5"
@@ -234,10 +223,9 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
-        app:layout_constraintLeft_toRightOf="@id/btn_10"
-        app:layout_constraintTop_toBottomOf="@id/btn_6" />
+        app:layout_constraintLeft_toRightOf="@+id/btn_10"
+        app:layout_constraintTop_toBottomOf="@+id/btn_6" />
 
     <Button
         android:id="@+id/btn_12"
@@ -248,10 +236,9 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
-        app:layout_constraintLeft_toRightOf="@id/btn_11"
-        app:layout_constraintTop_toBottomOf="@id/btn_7" />
+        app:layout_constraintLeft_toRightOf="@+id/btn_11"
+        app:layout_constraintTop_toBottomOf="@+id/btn_7" />
 
     <Button
         android:id="@+id/btn_13"
@@ -262,10 +249,9 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
-        app:layout_constraintLeft_toRightOf="@id/btn_12"
-        app:layout_constraintTop_toBottomOf="@id/btn_8" />
+        app:layout_constraintLeft_toRightOf="@+id/btn_12"
+        app:layout_constraintTop_toBottomOf="@+id/btn_8" />
 
     <Button
         android:id="@+id/btn_14"
@@ -276,10 +262,9 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
-        app:layout_constraintLeft_toRightOf="@id/btn_13"
-        app:layout_constraintTop_toBottomOf="@id/btn_9" />
+        app:layout_constraintLeft_toRightOf="@+id/btn_13"
+        app:layout_constraintTop_toBottomOf="@+id/btn_9" />
 
     <Button
         android:id="@+id/btn_15"
@@ -290,7 +275,6 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_10"
@@ -305,10 +289,9 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
-        app:layout_constraintLeft_toRightOf="@id/btn_15"
-        app:layout_constraintTop_toBottomOf="@id/btn_11" />
+        app:layout_constraintLeft_toRightOf="@+id/btn_15"
+        app:layout_constraintTop_toBottomOf="@+id/btn_11" />
 
     <Button
         android:id="@+id/btn_17"
@@ -319,10 +302,9 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
-        app:layout_constraintLeft_toRightOf="@id/btn_16"
-        app:layout_constraintTop_toBottomOf="@id/btn_12" />
+        app:layout_constraintLeft_toRightOf="@+id/btn_16"
+        app:layout_constraintTop_toBottomOf="@+id/btn_12" />
 
     <Button
         android:id="@+id/btn_18"
@@ -333,10 +315,9 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
-        app:layout_constraintLeft_toRightOf="@id/btn_17"
-        app:layout_constraintTop_toBottomOf="@id/btn_13" />
+        app:layout_constraintLeft_toRightOf="@+id/btn_17"
+        app:layout_constraintTop_toBottomOf="@+id/btn_13" />
 
     <Button
         android:id="@+id/btn_19"
@@ -347,10 +328,9 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
-        app:layout_constraintLeft_toRightOf="@id/btn_18"
-        app:layout_constraintTop_toBottomOf="@id/btn_13" />
+        app:layout_constraintLeft_toRightOf="@+id/btn_18"
+        app:layout_constraintTop_toBottomOf="@+id/btn_13" />
 
     <Button
         android:id="@+id/btn_20"
@@ -361,7 +341,6 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_15"
@@ -376,10 +355,9 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
-        app:layout_constraintLeft_toRightOf="@id/btn_20"
-        app:layout_constraintTop_toBottomOf="@id/btn_16" />
+        app:layout_constraintLeft_toRightOf="@+id/btn_20"
+        app:layout_constraintTop_toBottomOf="@+id/btn_16" />
 
     <Button
         android:id="@+id/btn_22"
@@ -390,10 +368,9 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
-        app:layout_constraintLeft_toRightOf="@id/btn_21"
-        app:layout_constraintTop_toBottomOf="@id/btn_17" />
+        app:layout_constraintLeft_toRightOf="@+id/btn_21"
+        app:layout_constraintTop_toBottomOf="@+id/btn_17" />
 
     <Button
         android:id="@+id/btn_23"
@@ -404,10 +381,9 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
-        app:layout_constraintLeft_toRightOf="@id/btn_22"
-        app:layout_constraintTop_toBottomOf="@id/btn_18" />
+        app:layout_constraintLeft_toRightOf="@+id/btn_22"
+        app:layout_constraintTop_toBottomOf="@+id/btn_18" />
 
     <Button
         android:id="@+id/btn_24"
@@ -418,10 +394,9 @@
         android:backgroundTint="#413F43"
         android:textColor="#ffffff"
         android:textSize="48sp"
-        android:paddingTop="-64dp"
         android:textStyle="bold"
-        app:layout_constraintLeft_toRightOf="@id/btn_23"
-        app:layout_constraintTop_toBottomOf="@id/btn_19" />
+        app:layout_constraintLeft_toRightOf="@+id/btn_23"
+        app:layout_constraintTop_toBottomOf="@+id/btn_19" />
 
     <Button
         android:id="@+id/buttonS"
